@@ -1,0 +1,22 @@
+.title {
+  font: var(--title-section);
+  color: var(--tertiary);
+  background-image: linear-gradient(
+    hsl(322, 92%, 42%) 25%, /*degrade en las 2 letras de los titulos*/
+    hsl(187, 99%, 46%) 100% /*degrade en las 2 letras de los titulos*/
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.highlight {
+  position: relative;
+  color: var(--secondary);
+  /* style neon */
+  background-image: linear-gradient(
+    hsl(322, 92%, 42%) 25%, /*degrade en las 2 letras de los titulos*/
+    hsl(187, 99%, 46%) 100% /*degrade en las 2 letras de los titulos*/
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
